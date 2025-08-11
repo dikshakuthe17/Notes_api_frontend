@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "https://notes-api-backend-roan.vercel.app/api", // backend ka URL
+    baseURL: import.meta.env.VITE_API_BASE_URL // backend ka URL env se le raha hai
 });
