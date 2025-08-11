@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:3000/api", // backend ka URL
+    baseURL: "https://notes-api-backend-roan.vercel.app/api", // backend ka URL
 });
